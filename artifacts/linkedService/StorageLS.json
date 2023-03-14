@@ -2,7 +2,7 @@
 	"name": "StorageLS",
 	"properties": {
 		"parameters": {
-			"akilihealthaccount": {
+			"akilistorageaccount": {
 				"type": "string",
 				"defaultValue": "synapsee2elake"
 			}
