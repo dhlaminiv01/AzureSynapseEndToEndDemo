@@ -4,7 +4,7 @@
 		"parameters": {
 			"akilihealthaccount": {
 				"type": "string",
-				"defaultValue": "synapsee2elake"
+				"defaultValue": "akilistorageaccount"
 			}
 		},
 		"annotations": [],
