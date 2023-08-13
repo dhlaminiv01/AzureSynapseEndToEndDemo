@@ -20,7 +20,7 @@ Please follow the below steps to successfully deploy a Synapse workspace and its
 
     >:exclamation::point_right:**It's incredibly important that you write down all the values in the above step. Many will need to be supplied later as parameters.**
 
-    >*Note: The github username should be the target github account where you forked the project. Example: If https://github.com/microsoft/AzureSynapseEndToEndDemo is the github project url, then "microsoft" is github account name.*
+    >*Note: The github username should be the target github account where you forked the project. Example: If https://github.com/JohnDoe/AzureSynapseEndToEndDemo is the github project url, then "JohnDoe" is github account name.*
 
 * Click on the **Review + Create** button to trigger deployment validation. If deployment validation is successful, the single click deployment will deploy a Synapse Workspace, Dedicated SQL Pool, and Spark Pool. This deployment also enables git configuration so all the required artifacts for the end-to-end demo are committed to your user github project. This completes the Azure Synapse end-to-end code deployment step.
 
@@ -50,4 +50,4 @@ Once you have the pipeline open, you can execute it by clicking debug.  When you
 ![image](https://user-images.githubusercontent.com/59613090/193361209-7b9ba056-d7b4-4415-baeb-6b7f012b1d47.png)
 
 
-## Congratulations on completing setup. You are now ready to move to [Exercise 01 - Claims](https://github.com/microsoft/AzureSynapseEndToEndDemo/blob/main/Exercise01-Claims/README.md)
+## Congratulations on completing setup. You are now ready to move to [Exercise 01 - Claims](/Exercise01-Claims/README.md)
