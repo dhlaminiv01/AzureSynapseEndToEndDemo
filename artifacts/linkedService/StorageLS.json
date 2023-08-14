@@ -2,9 +2,9 @@
 	"name": "StorageLS",
 	"properties": {
 		"parameters": {
-			"akilistorageaccount": {
+			"predictivestracc": {
 				"type": "string",
-				"defaultValue": "synapsee2elake"
+				"defaultValue": "predictive"
 			}
 		},
 		"annotations": [],
