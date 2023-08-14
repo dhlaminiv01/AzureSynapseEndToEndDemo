@@ -152,13 +152,7 @@
 					"stagingSettings": {
 						"linkedServiceName": {
 							"referenceName": "StorageLS",
-							"type": "LinkedServiceReference",
-							"parameters": {
-								"StorageName": {
-									"value": "@pipeline().parameters.StorageName",
-									"type": "Expression"
-								}
-							}
+							"type": "LinkedServiceReference"
 						},
 						"path": "staging"
 					}
@@ -239,13 +233,7 @@
 					"stagingSettings": {
 						"linkedServiceName": {
 							"referenceName": "StorageLS",
-							"type": "LinkedServiceReference",
-							"parameters": {
-								"StorageName": {
-									"value": "@pipeline().parameters.StorageName",
-									"type": "Expression"
-								}
-							}
+							"type": "LinkedServiceReference"
 						},
 						"path": "staging"
 					}
@@ -326,13 +314,7 @@
 					"stagingSettings": {
 						"linkedServiceName": {
 							"referenceName": "StorageLS",
-							"type": "LinkedServiceReference",
-							"parameters": {
-								"StorageName": {
-									"value": "@pipeline().parameters.StorageName",
-									"type": "Expression"
-								}
-							}
+							"type": "LinkedServiceReference"
 						},
 						"path": "staging"
 					}
@@ -472,19 +454,19 @@
 		"parameters": {
 			"StorageName": {
 				"type": "string",
-				"defaultValue": "synapsee2elake"
+				"defaultValue": "predictivestracc"
 			},
 			"DatabaseName": {
 				"type": "string",
-				"defaultValue": "synapsee2edw"
+				"defaultValue": "predictivesqlpool "
 			},
 			"ServerName": {
 				"type": "string",
-				"defaultValue": "synapsee2e"
+				"defaultValue": "predictivesqlpool "
 			},
 			"SparkPoolName": {
 				"type": "string",
-				"defaultValue": "synapsee2espark"
+				"defaultValue": " predictivesprk"
 			},
 			"DatasetSize": {
 				"type": "string",
